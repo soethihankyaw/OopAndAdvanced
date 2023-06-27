@@ -58,6 +58,6 @@ class Program
         }
         timer.Stop();
         Console.WriteLine("Elapsed total ms with Proper Way {0}",timer.Elapsed.TotalMilliseconds);
-        writeDictonaryToAFile(dictNumbers, "DictFile");
+        writeDictonaryToAFile(dictNumbers, "dictNumbers.txt");
     }
 }
